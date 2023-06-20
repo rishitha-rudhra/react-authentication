@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.home-body-container {
+  min-height: 90vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-img {
+  width: 90%;
+  max-width: 500px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 550px;
+  font-family: Roboto;
+}
+.shop-now-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+.description {
+  color: #475569;
+}

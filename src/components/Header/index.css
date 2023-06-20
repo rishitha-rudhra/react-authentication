@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.header {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  height: 10vh;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.website-logo {
+  width: 90px;
+  margin-right: auto;
+}
+.nav-item {
+  color: #475569;
+  margin-right: 15px;
+}
+.logout-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  border-style: none;
+  border-radius: 5px;
+}
